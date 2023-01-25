@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid red;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    width: 70px;
+    margin-right: 25px;
+}
+
+.container a {
+    margin-right: 12px;
+    text-decoration: none;
+}

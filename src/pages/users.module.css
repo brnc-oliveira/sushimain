@@ -1,0 +1,35 @@
+.container {
+<<<<<<< HEAD
+    border: 1px solid red;
+}
+=======
+    margin-top: 10px;
+    border-bottom: 1px solid var(--gray-900);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.container h2 {
+    margin-left: 23px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.container p {
+    margin-bottom: 3px;
+    margin-left: 23px;
+    font-size: 12px;
+}
+
+.deleteButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.deleteButton a:hover {
+    color: var(--purple-500);
+    transition: 0.2s;
+    cursor: pointer;
+}
+>>>>>>> cc871c4 (commit)
